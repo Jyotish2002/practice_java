@@ -8,5 +8,6 @@ public class test{
         System.out.print(a+b);
         System.out.println(((Object)a).getClass().getSimpleName()); //get type of varible ---> "integer"
         System.out.println("Minimum value of a is : "+ Short.MIN_VALUE); // get range of minimum value of short
+        System.out.println("Min and max value of integer " +Integer.MIN_VALUE + " " + Integer.MAX_VALUE);
     }
 }
