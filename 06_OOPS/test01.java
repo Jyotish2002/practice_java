@@ -6,7 +6,7 @@ class car {
     int speed;
 
     public void drive() {
-        System.out.println("My car is good and it's on highway at speed of " + speed + "km/h");
+        System.out.println("My car is good and it's on highway at speed of " + this.speed + "km/h");
     }
 
     public void PrintColor() {
